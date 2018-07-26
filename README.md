@@ -1,3 +1,5 @@
+#Deployment instruction
+
 cd
 sudo npm i -g cordova
 cordova create cordocamera com.camera.cordova Cordocamera -d
