@@ -10,6 +10,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function () {
         this.receivedEvent('deviceready');
+
+        $.material.init();
     },
 
     // Update DOM on a Received Event
