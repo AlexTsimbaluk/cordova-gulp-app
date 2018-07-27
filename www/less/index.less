@@ -51,8 +51,14 @@ button,
     }
     &.btn-raised {
         &.no-focus-shadow {
-            &:focus {
-                // box-shadow: none;
+            &:focus,
+            &:active,
+            &:hover,
+            &:focus:active {
+                .shadow-2dp();
+                &:hover {
+                    .shadow-2dp();
+                }
             }
         }
     }
